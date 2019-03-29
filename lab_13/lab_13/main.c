@@ -68,7 +68,7 @@ int main(int argc, const char * argv[]) {
     int *arrC = (int*)malloc(K * sizeof(int));
     
     int n = 0;
-    for (int i = 0; i < K / 2; i++) //слияние
+    for (int i = 0; i < K / 2; i++) 
     {
         arrC[n++] = arrA[i];
         arrC[n++] = arrB[i];
